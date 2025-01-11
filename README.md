@@ -3,6 +3,12 @@
 
 This resource provides a **Player Stats and Info Menu** for QBCore, allowing players to view detailed information about their character and reputation. The menu includes **Player Info** (such as Citizen ID, Job, Bank Balance, Cash, and more) and **Reputation Levels** based on different in-game activities. Only works with **QB-Core** and integrates with **qb-radialmenu** for easy access.
 
+## Preview
+
+Check out the video showcase for a quick preview of the **Player Stats & Reputation System** in action:
+
+[![QB-Core Player Stats & Reputation System Showcase](https://img.youtube.com/vi/NHZRMrX63jc/0.jpg)](https://www.youtube.com/watch?v=NHZRMrX63jc)
+
 ## Features
 - **Player Info Menu**: Displays essential player information, including:
   - Citizen ID
