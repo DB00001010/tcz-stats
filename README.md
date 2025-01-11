@@ -1,13 +1,22 @@
 
 # Player Stats and Reputation Menu [tcz-stats]
 
+---
+
+I created this script because there was no way to check your 'rep' in general and then I added a few stuff along the way. Also I saw that the 'rep' metadata in QBCore was under-utilized as most people choose to implement their own 'rep' or 'xp' system when they could be using this metadata that is already implemented and accessible everywhere using 'PlayerData.Functions.metadata', I've just added some sprinkles to it.
+
+This is a utility script used to display important info to players such as Citizen ID, Job, Bank Balance, Cash, and such without the use of a command. Also to display **Reputation Levels** based on different in-game activities.
+
+The explanation below should provide a structure for devs to create resources implementing these 'rep' without having to create their own system. I'll explain how you can use the QBCore native functions to create new 'rep' and use it in your resources.
+
+---
 This resource provides a **Player Stats and Info Menu** for QBCore, allowing players to view detailed information about their character and reputation. The menu includes **Player Info** (such as Citizen ID, Job, Bank Balance, Cash, and more) and **Reputation Levels** based on different in-game activities. Only works with **QB-Core** and integrates with **qb-radialmenu** for easy access.
 
 ## Preview
 
-Check out the video showcase for a quick preview of the **Player Stats & Reputation System** in action:
+Check out the video showcase for a quick preview of the **Player Stats & Reputation Menu** in action:
 
-[![QB-Core Player Stats & Reputation System Showcase](https://img.youtube.com/vi/NHZRMrX63jc/0.jpg)](https://www.youtube.com/watch?v=NHZRMrX63jc)
+[![QB-Core Player Stats & Reputation Menu Showcase](https://img.youtube.com/vi/NHZRMrX63jc/0.jpg)](https://www.youtube.com/watch?v=NHZRMrX63jc)
 
 ## Features
 - **Player Info Menu**: Displays essential player information, including:
@@ -16,12 +25,12 @@ Check out the video showcase for a quick preview of the **Player Stats & Reputat
   - Bank Balance, Cash, and Crypto balance
   - Name, Birthdate, and Gender
   
-- **Reputation Menu**: Displays player reputation levels for different categories, such as:
+- **Reputation Menu**: Displays player reputation levels by different configurable categories, such as:
   - Criminal Activities (e.g., Dealer)
-  - Jobs (e.g., Crafting, Farming)
-  - Crafting (e.g., Weapon Crafting, Attachment Crafting)
+  - Jobs (e.g., Trucking, Farming)
+  - Crafting (e.g., Item Crafting, Attachment Crafting)
   
-- **Radial Menu Integration**: Access the menu via the radial menu in-game, making it easy to view stats and reputations.
+- **Radial Menu Integration**: Access the menu via the qb-radialmenu in-game, making it easy to view stats and reputations. (can be disabled but you'll have to implement a command to access the menu or something)
 
 ## Installation
 
@@ -87,7 +96,7 @@ Config.RadialMenu = {
 Only the following reputation types exist by default in **QB-Core**:
 - **craftingrep**
 - **dealer**
-- **attachmentrep**
+- **attachmentcraftingrep**
 
 Other reputation types (like **farmingrep**, **robberyrep**, etc.) must be **manually implemented** by the server administrators. You can add custom types as needed in **`config.lua`** by following the provided example format.
 
