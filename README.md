@@ -1,7 +1,7 @@
 
 # Player Stats and Reputation Menu [tcz-stats]
 
-I created this script because there was no way to check your 'rep' in general and then I added a few stuff along the way. Also I saw that the 'rep' metadata in QBCore was under-utilized as most people choose to implement their own 'rep' or 'xp' system when they could be using this metadata that is already implemented and accessible everywhere using 'PlayerData.Functions.metadata', I've just added some sprinkles to it.
+I created this script because there was no way to check your 'rep' in general and then I added a few stuff along the way. Also I saw that the 'rep' metadata in QBCore was under-utilized as most people choose to implement their own 'rep' or 'xp' system when they could be using this metadata that is already implemented and accessible everywhere using 'PlayerData.metadata', I've just added some sprinkles to it.
 
 This is a utility script used to display important info to players such as Citizen ID, Job, Bank Balance, Cash, and such without the use of a command. Also to display **Reputation Levels** based on different in-game activities.
 
