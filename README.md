@@ -1,8 +1,6 @@
 
 # Player Stats and Reputation Menu [tcz-stats]
 
----
-
 I created this script because there was no way to check your 'rep' in general and then I added a few stuff along the way. Also I saw that the 'rep' metadata in QBCore was under-utilized as most people choose to implement their own 'rep' or 'xp' system when they could be using this metadata that is already implemented and accessible everywhere using 'PlayerData.Functions.metadata', I've just added some sprinkles to it.
 
 This is a utility script used to display important info to players such as Citizen ID, Job, Bank Balance, Cash, and such without the use of a command. Also to display **Reputation Levels** based on different in-game activities.
@@ -41,7 +39,7 @@ Check out the video showcase for a quick preview of the **Player Stats & Reputat
 
 You can customize various aspects of the script in the **`config.lua`** file:
 
-- **Crypto Name**: Change the name of the crypto currency shown (default: `TCZ COINS`).
+- **Crypto Name**: Change the name of the crypto currency shown (default: `QBits`).
 - **Reputation Types**: Add or modify reputation types under different categories (e.g., `criminal`, `jobs`, `crafting`).
 - **Menu Customization**: Control the display of reputation points, level names, and the progress bar color.
 - **Radial Menu**: Customize the radial menu button that opens the stats menu (can be enabled/disabled).
